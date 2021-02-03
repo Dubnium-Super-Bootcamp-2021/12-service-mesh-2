@@ -1,2 +1,2 @@
-// require('./materi/db/kv/redis');
-require('./materi/storage/service');
+require('./materi/db/kv/redis');
+// require('./materi/storage/service');
