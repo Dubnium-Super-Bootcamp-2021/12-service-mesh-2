@@ -58,10 +58,10 @@ async function main() {
       await delAsync(`bio${i}`);
     }
     // eslint-disable-next-line prettier/prettier
-    const test = JSON.parse(arr[1]);
+    const test = JSON.stringify(arr);
     console.log(test);
     await delAsync('name1');
-    client.end(true);
+    // client.end(true);
   } catch (err) {
     console.error(err);
   }
